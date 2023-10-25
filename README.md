@@ -8,11 +8,13 @@ MySQL Queries — Select and insert records from/in our database table.
 Routes — Routing will enable us to associate the URLs with the functions that we will create.
 
 Requirments
-Python 3.11.3
-MySQL
+Python 3.11.6
+MySQL 
+```brew install mysql pkg-config```
+``` pip install mysqlclient```
 Python Flask with the command: ```pip install flask```
-Flask-MySQLdb with the command: ```pip install flask-mysqld```
-1
+Flask-MySQLdb with the command: ```pip install flask-mysqldb```
+
 
 initial code provided by https://codeshack.io/
 
@@ -41,4 +43,8 @@ set FLASK_APP=main.py
 set FLASK_DEBUG=1
 
 flask run
+
+
+flask --app main run    
+
 ```
